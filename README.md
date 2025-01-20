@@ -29,11 +29,7 @@ My initial review of the data using time sereis decomposition shows a very consi
 I need to add more data. The sites I was initally using don't export ino formats Im familiar with or know how to manipulate effectivey.
 
 #### Outline of project
-
-- [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
-
+(https://github.com/isabaca3/DonorProject/blob/main/IB_Decomposition_Donors.ipynb)
 
 ##### Contact and Further Information
 Isa Baca
