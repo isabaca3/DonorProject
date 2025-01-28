@@ -1,0 +1,47 @@
+1. Business Understanding
+The primary objective is to analyze donor behavior and predict the number of donors to improve predictions surrounding donor behaviors.
+This involves:
+Understanding the key drivers behind donor numbers over time.
+Exploring how external factors (e.g., temperature, consumer price index) influence donations.
+Developing predictive models to anticipate future donor behavior.
+
+2. Data Understanding
+The donor dataset is the foundation of the analysis, containing features such as:
+
+Time-series data: Donation trends over time.
+External factors: Average temperature, consumer price index, and other relevant variables.
+Target variable: Adjusted number of donors or donation amounts. Key insights from the exploration:
+Time series decomposition reveals seasonal and trend patterns in donor data.
+Scatterplots and feature importance analysis highlight relationships between features like temperature and donation numbers.
+
+3. Data Preparation
+Data preprocessing steps included:
+
+Scaling features to standardize values for modeling.
+Splitting the data into training and testing sets for model evaluation.
+Handling missing or irrelevant data through imputation or feature selection.
+Visualizing trends and distributions to ensure data quality and identify patterns.
+4. Modeling
+First Notebook: Donors - Time Series Decomposition
+Time series decomposition was performed to break down donation trends into components (e.g., trend, seasonality, residuals).
+Linear regression models were used to evaluate the relationship between various scaled features and donor numbers.
+Second Notebook: Permutation Importance and K-Nearest Neighbors
+Permutation Importance: Identified the most influential features affecting donor numbers.
+K-Nearest Neighbors (KNN): Decision boundaries were created to classify donors based on key features (e.g., temperature, consumer price index).
+Support Vector Machine (SVM) and GridSearchCV were applied to fine-tune model parameters.
+Third Notebook: Donor Neural Network Model
+A neural network regression model was developed to predict donor numbers.
+By leveraging multiple features, the model aimed to enhance predictive accuracy and provide deeper insights into donor behavior.
+
+5. Evaluation
+Time Series Decomposition: Visuals confirmed clear seasonal trends and highlighted fluctuations in donor numbers over time.
+KNN and SVM Models: GridSearchCV improved hyperparameters, while permutation importance provided clarity on feature relevance.
+Neural Network Model: Achieved improved accuracy compared to linear regression and KNN, demonstrating the potential of deep learning for complex donor prediction tasks.
+
+6. Deployment
+While not explicitly mentioned in the notebooks:
+
+Insights can be shared with stakeholders for actionable decisions (e.g., targeted campaigns based on temperature or economic conditions).
+Predictive models can be integrated into operational systems to forecast donor numbers and optimize fundraising efforts.
+Summary
+By following the CRISP-DM framework, the three notebooks collectively analyze donor data, identify key influencing factors, and build predictive models. These insights and models can guide data-driven strategies to improve donor experiences and predict fluctuations in the donation stream.
